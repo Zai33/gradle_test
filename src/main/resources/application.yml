@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gradle_test
+
+  data:
+    mongodb:
+      uri: mongodb+srv://kyawzinwinhtike6:PP3jfjL9E2Y4s4Up@cluster0.lxrle.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+server:
+  port: 8080 #change the port if needed
+
+logging:
+  level:
+    root: INFO
+#PP3jfjL9E2Y4s4Up
