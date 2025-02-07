@@ -3,14 +3,14 @@ package com.kyawgyi.gradle_test.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Document(collection = "students")
+@AllArgsConstructor
 @NoArgsConstructor
-@Getter
 @Data
+@Document(collection = "students")
 
 public class Student {
     
